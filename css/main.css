@@ -28,7 +28,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.99;
+  filter:opacity(0.98);
   visibility: hidden; }
 
 .menu.show {
@@ -48,6 +48,7 @@
   margin: 0;
   padding: 0;
   background: #373737;
+  filter:opacity(0.98);
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out; }
@@ -57,6 +58,7 @@
 
 .menu-branding {
   background: #444;
+  filter:opacity(100%);
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out; }
 
