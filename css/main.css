@@ -108,8 +108,21 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
-.skyblue{
-  color:#122378
+.skyblue:hover{
+  color:#3eaee2;
+  transition: all 0.5s;
+}
+.vermi:hover{
+  color:#d86a2a;
+  transition: all 0.5s;
+}
+.navy:hover{
+ color:#1170a7;
+  transition: all 0.5s;
+}
+.black:hover{
+  color:#131313;
+  transition:all 0.5s;
 }
 
 * {
@@ -175,9 +188,8 @@ main {
     margin-top: 1rem; }
     main .icons a {
       padding: 0.4rem; }
-      main .icons a:hover {
-        color: #eece1a;
-        transition: all 0.5s ease-out; }
+      /* main .icons a:hover {
+        color: #eece1a;  }*/
         
   main#home {
     overflow: hidden; }
